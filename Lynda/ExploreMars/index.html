@@ -22,6 +22,8 @@
         $(this).find('.card').removeClass('theFlip');
       }
     );
+
+    // Draw Initial Canvas
     $("#adCanvas").drawText({
       layer: true,
       fillStyle: "#16a",
@@ -31,6 +33,18 @@
       name: "initialLayer", 
       maxWidth: 200
     });
+    
+    // Form Submission Button
+    $('#offerButton').click(function() {
+      var theAge = $('#age').val();
+      var theGender = $('input:radio[name=gender]:checked').val();
+
+      // Place values into local storage
+      localStorage.setItem("age", theAge);
+      localStorage.setItem("gender", theGender);
+
+      window.location.href = "offer.html";
+    })
   });
 
   // Updates the text field for slider
