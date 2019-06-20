@@ -8,9 +8,20 @@
 <script type="text/javascript" src="scripts/modernizr.2.5.3.min.js"></script>
 <script type="text/javascript" src="scripts/jcanvas.min.js"></script>
 <link href="styles/main.css" rel="stylesheet" type="text/css">
+<link href="styles/transitions.css" rel="stylesheet" type="text/css">
 
 <script type="text/javascript">
   $(document).ready(function(){
+
+    $('.cardGroup.flip').hover(
+      function() {
+        $(this).find('.card').addClass('theFlip');
+      },
+
+      function() {
+        $(this).find('.card').removeClass('theFlip');
+      }
+    );
     $("#adCanvas").drawText({
       layer: true,
       fillStyle: "#16a",
