@@ -8,6 +8,21 @@
 <script type="text/javascript" src="scripts/modernizr.2.5.3.min.js"></script>
 <script type="text/javascript" src="scripts/jcanvas.min.js"></script>
 <link href="styles/main.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#adCanvas").drawText({
+      layer: true,
+      fillStyle: "#16a",
+      font: "bold 32pt serif",
+      text: "Get Special Offer Here",
+      x: 100, y: 100,
+      name: "initialLayer", 
+      maxWidth: 200
+    });
+  });
+</script>
+
 </head>
 <body>
 <div id="outerWrapper">
@@ -41,6 +56,25 @@
           <canvas id="adCanvas" width="200" height="200"></canvas>
           <div class="detail">
             <p>Tell us just a little about yourself and we'll give you a special discount on one of our famous planetary packages!</p>
+            <form id="personalData" name="personalData" method="post" action="">
+              <p>
+                <label>
+                  <input name="gender" type="radio" id="gender_0" value="male" checked />Male
+                </label>
+                <label>
+                  <input name="gender" type="radio" id="gender_1" value="female" />Female
+                </label>
+              </p>
+              <p>
+                <label for="age">Age</label>
+                <input type="range" name="age" id="age" min="18" max="123" value="62" 
+                onchange="printValue('age', 'rangeValue')" />
+                <input id="rangeValue" type="text" />
+              </p>
+              <p id="buttonLine">
+                <input type="button" name="offerButton" id="offerButton" value="Get My Special Offer!" />
+              </p>
+            </form>
           </div>
         </div>
       </div>
