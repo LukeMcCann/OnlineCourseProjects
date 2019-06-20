@@ -25,13 +25,6 @@
 	top: 0;
 }
 
-/*	Without CSS3 */
-.cardGroup.slide {
-	overflow: hidden;
-}
-.cardGroup.slide .detail {
-	bottom:-440px;
-}
 /*  CSS3 Flip */	
 .cardGroup.flip {
 	-webkit-perspective:800px;
@@ -65,7 +58,4 @@
 	-ms-backface-visibility: hidden;
 	-o-backface-visibility: hidden;
 	backface-visibility: hidden;
-}
-#offerLink {
-	display: none;	
 }
