@@ -21,6 +21,17 @@
       maxWidth: 200
     });
   });
+
+  // Updates the text field for slider
+  function printValue(sliderID, textbox) {
+    var x = document.getElementById(textbox);
+    var y = document.getElementById(sliderID);
+
+    x.value = y.value
+  }
+  window.onload = function() {
+    printValue('age', 'rangeValue');
+  }
 </script>
 
 </head>
