@@ -1,0 +1,5 @@
+GameDesign:
+
+1. Our core mechanic should be compelling. We need a core mechanic to build upon.
+2. The core mechanic should be improved or built on by all other mechanics. Mechanics which do nothing for the core mechanic
+   are not good mechanics. 
