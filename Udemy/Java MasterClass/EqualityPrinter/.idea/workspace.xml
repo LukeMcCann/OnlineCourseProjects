@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a5baf6a-6f14-4a60-8d94-263c84ec38f2" name="Default Changelist" comment="" />
+    <list default="true" id="3d7c5ca8-a539-4cab-9f51-11971dce8403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EqualityPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MinutesToYearsAndDays/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MinutesToYearsAndDays/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,17 +19,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="32" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MinutesToYearsAndDaysCalculator.java">
+        <entry file="file://$PROJECT_DIR$/src/EqualityPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -45,7 +50,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/MinutesToYearsAndDaysCalculator.java" />
+        <option value="$PROJECT_DIR$/src/EqualityPrinter.java" />
       </list>
     </option>
   </component>
@@ -61,30 +66,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="MinutesToYearsAndDays" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MinutesToYearsAndDays" type="462c0819:PsiDirectoryNode" />
+              <item name="EqualityPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EqualityPrinter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MinutesToYearsAndDays" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MinutesToYearsAndDays" type="462c0819:PsiDirectoryNode" />
+              <item name="EqualityPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EqualityPrinter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563564075303" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563568954594" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -103,7 +108,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="MinutesToYearsAndDays" />
+      <module name="EqualityPrinter" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,20 +124,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2a5baf6a-6f14-4a60-8d94-263c84ec38f2" name="Default Changelist" comment="" />
-      <created>1563562404899</created>
+      <changelist id="3d7c5ca8-a539-4cab-9f51-11971dce8403" name="Default Changelist" comment="" />
+      <created>1563564159776</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563562404899</updated>
-      <workItem from="1563562407050" duration="1752000" />
+      <updated>1563564159776</updated>
+      <workItem from="1563564161950" duration="4278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1752000" />
+    <option name="totallyTimeSpent" value="4278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="41" width="1134" height="1409" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -149,7 +155,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299373" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299373" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -171,15 +177,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="85">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MinutesToYearsAndDaysCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/EqualityPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
