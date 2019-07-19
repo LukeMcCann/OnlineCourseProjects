@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0fa3aa6-7d20-4c01-b638-ab8fff2fdb20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4a042b88-da4b-4313-bbe2-1ae98921ffd7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../EqualSumChecker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EqualSumChecker/src/EqualSumChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EqualSumChecker/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TeenNumberChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecimalComparator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DecimalComparator/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,19 +20,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DecimalComparator.java">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="20" selection-start-line="8" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/TeenNumberChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="153">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,16 +58,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DecimalComparator.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/TeenNumberChecker.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="40" />
+    <option name="x" value="88" />
+    <option name="y" value="121" />
     <option name="width" value="1294" />
-    <option name="height" value="1407" />
+    <option name="height" value="1183" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -63,17 +75,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DecimalComparator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DecimalComparator" type="462c0819:PsiDirectoryNode" />
+              <item name="TeenNumberChecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeenNumberChecker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DecimalComparator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DecimalComparator" type="462c0819:PsiDirectoryNode" />
+              <item name="TeenNumberChecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeenNumberChecker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -81,12 +92,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563477943619" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563539449071" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -105,7 +117,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="DecimalComparator" />
+      <module name="TeenNumberChecker" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,21 +133,22 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b0fa3aa6-7d20-4c01-b638-ab8fff2fdb20" name="Default Changelist" comment="" />
-      <created>1563469973431</created>
+      <changelist id="4a042b88-da4b-4313-bbe2-1ae98921ffd7" name="Default Changelist" comment="" />
+      <created>1563537393459</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563469973431</updated>
-      <workItem from="1563469975881" duration="5756000" />
-      <workItem from="1563535786758" duration="43000" />
+      <updated>1563537393459</updated>
+      <workItem from="1563537395753" duration="2108000" />
+      <workItem from="1563539553541" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5799000" />
+    <option name="totallyTimeSpent" value="2118000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="40" width="1294" height="1407" extended-state="0" />
+    <frame x="88" y="121" width="1294" height="1183" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2552674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -146,7 +159,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33045527" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -172,17 +185,23 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DecimalComparator.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/TeenNumberChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="153">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
